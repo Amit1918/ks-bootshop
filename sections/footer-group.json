@@ -1,7 +1,39 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer Group",
   "sections": {
+    "html_UL3h4m": {
+      "type": "html",
+      "settings": {
+        "liquid": "<!-- Fixed Footer Section with Customizable Icons and Color Animation Effects -->\n<style>\n  @keyframes gradientAnimation {\n    0% { background-position: 0% 50%; }\n    50% { background-position: 100% 50%; }\n    100% { background-position: 0% 50%; }\n  }\n\n  .fixed-footer {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    background-color: white;\n    color: black;\n    text-align: center;\n    padding: 10px 0;\n    z-index: 1000;\n    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);\n    display: flex;\n    justify-content: space-around;\n    border-top: 1px solid #e0e0e0;\n    transition: background-color 0.3s ease;\n  }\n  .fixed-footer:hover {\n    background-color: #f8f8f8;\n  }\n  .footer-item {\n    display: inline-block;\n    text-align: center;\n    font-size: 14px;\n    flex-grow: 1;\n    transition: transform 0.3s ease, color 0.3s ease;\n  }\n  .footer-item a {\n    color: black;\n    text-decoration: none;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    transition: color 0.3s ease;\n  }\n  .footer-item img {\n    width: 24px;\n    height: 24px;\n    margin-bottom: 5px;\n    transition: transform 0.3s ease, filter 0.3s ease;\n  }\n  .footer-item:hover {\n    transform: translateY(-5px);\n  }\n  .footer-item:hover img {\n    transform: scale(1.2);\n    filter: drop-shadow(0 0 5px rgba(0, 123, 255, 0.7));\n  }\n  .footer-item a:hover {\n    color: #007bff;\n    text-decoration: none;\n  }\n  .footer-item img:hover {\n    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);\n    background-size: 400% 400%;\n    animation: gradientAnimation 8s ease infinite;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n</style>\n\n<div class=\"fixed-footer\">\n  <div class=\"footer-item\">\n    <a href=\"{{ routes.root_url }}\">\n      <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0610/0952/6872/files/Picsart_24-08-23_19-21-45-393.png?v=1724421147'}}\" alt=\"Home Icon\">\n      Home\n    </a>\n  </div>\n  <div class=\"footer-item\">\n    <a href=\"/collections\">\n      <img src=\"{{ 'category_icon.png' | asset_url }}\" alt=\"Category Icon\">\n      Category\n    </a>\n  </div>\n  <div class=\"footer-item\">\n    <a href=\"/cart\">\n      <img src=\"{{ 'cart_icon.png' | asset_url }}\" alt=\"Cart Icon\">\n      Cart\n    </a>\n  </div>\n  <div class=\"footer-item\">\n    <a href=\"/account\">\n      <img src=\"{{ 'https://cdn.shopify.com/s/files/1/0610/0952/6872/files/Picsart_24-08-23_20-27-37-496.png?v=1724425079'}}\" alt=\"Profile Icon\">\n      Profile\n    </a>\n  </div>\n</div>",
+        "bg_color": "bg-white",
+        "bg_opacity": 0,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-body",
+        "border_opacity": 100,
+        "container": "container",
+        "container_max_width": "",
+        "text_align": "text-center",
+        "header_title": "HTML and Liquid",
+        "header_title_font_size": "h2",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "pt": 10,
+        "pb": 10
+      }
+    },
     "newsletter_fL4LWF": {
       "type": "newsletter",
       "settings": {
@@ -16,11 +48,11 @@
         "container_max_width": "600",
         "header_title": "Newsletter Subscribe",
         "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section<\/p>",
+        "header_description": "<p>Add on optional description for this section</p>",
         "header_description_font_size": "fs-md",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"\/policies\/terms-of-service\">Terms of Service<\/a> and <a href=\"\/policies\/privacy-policy\">Privacy Policy<\/a>.<\/p>",
+        "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
         "pt": 11,
         "pb": 11
       }
@@ -31,7 +63,7 @@
         "8b92bb0f-7aaa-4462-8660-b6a23bd9c31c": {
           "type": "menu",
           "settings": {
-            "menu": "shop",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Collections"
           }
@@ -39,7 +71,7 @@
         "79b0b9d4-1bf4-4490-a48e-94be1aecf12a": {
           "type": "menu",
           "settings": {
-            "menu": "company",
+            "menu": "",
             "title_font_size": "fs-xl",
             "title": "Company"
           }
@@ -57,12 +89,12 @@
           "settings": {
             "title": "About us",
             "title_font_size": "fs-xl",
-            "description": "<p>Finish your Shopify store within days, not months. 15+ years of coding experience, 50k+ customers served!<\/p>",
+            "description": "<p>Finish your Shopify store within days, not months. 15+ years of coding experience, 50k+ customers served!</p>",
             "btn_primary_text": "Browse themes",
-            "btn_primary_url": "https:\/\/www.kondasoft.com\/collections\/shopify-themes",
+            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes",
             "btn_primary_color": "btn-primary",
             "btn_secondary_text": "Learn more",
-            "btn_secondary_url": "https:\/\/www.kondasoft.com\/collections\/shopify-themes",
+            "btn_secondary_url": "https://www.kondasoft.com/collections/shopify-themes",
             "btn_secondary_color": "btn-light-white"
           }
         }
@@ -92,6 +124,7 @@
   },
   "order": [
     "newsletter_fL4LWF",
-    "footer"
+    "footer",
+    "html_UL3h4m"
   ]
 }
